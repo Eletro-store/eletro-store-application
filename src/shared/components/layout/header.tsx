@@ -1,4 +1,6 @@
 import { motion } from "framer-motion"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export const Header = () => {
     return (
@@ -21,9 +23,9 @@ export const Header = () => {
             <motion.a
                 href="https://chat.whatsapp.com/IKlcP7ZjVK102evkxnuIU6"
                 target="_blank"
-                className="underline text-lg text-zinc-900 py-2 px-4 rounded-lg hover:bg-yellow-200 transition-all duration-200"
+                className="text-lg text-zinc-900 py-2 px-4 rounded-lg hover:bg-yellow-200 transition-all duration-200 flex gap-1 items-center"
             >
-                Grupo
+                Grupo <FontAwesomeIcon icon={faWhatsapp} />
             </motion.a>
         </motion.header>
     )
