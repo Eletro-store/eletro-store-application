@@ -13,13 +13,13 @@ export const Header = () => {
             className="w-full bg-[#ffd52e] px-8 py-2 flex justify-between items-center fixed top-0 left-0 z-50 font-inter shadow-sm"
         >
             <img
-                src="https://eletrostore.pages.dev/loja.png"
+                src="https://res.cloudinary.com/essencialdev-cloudinary/image/upload/v1779064173/eletro-store_gbnpaq.webp"
                 alt=""
                 className="h-auto w-full max-w-24"
             />
 
             <motion.a
-                href=""
+                href="https://chat.whatsapp.com/IKlcP7ZjVK102evkxnuIU6"
                 target="_blank"
                 className="underline text-lg text-zinc-900 py-2 px-4 rounded-lg hover:bg-yellow-200 transition-all duration-200"
             >
