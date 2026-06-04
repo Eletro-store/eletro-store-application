@@ -45,7 +45,7 @@ export const Card = ({
                     />
                 </a>
             </div>
-            <h1 className="font-bold text-lg leading-normal my-2">{nome}</h1>
+            <h1 className="font-bold text-lg leading-normal my-2">{nome} | <span className="font-medium">#{id_interno}</span></h1>
             <h2 className="font-normal text-md leading-normal mb-2">🏪 Mercado Livre: {preco_ml.toLocaleString("pt-br", {
                 currency: "BRL",
                 style: "currency"
